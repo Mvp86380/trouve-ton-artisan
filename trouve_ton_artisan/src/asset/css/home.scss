@@ -1,0 +1,71 @@
+$fonce: #384050;
+$clair: #f1f8fc;
+$rouge: #cd2c2e;
+$vert: #82b864;
+
+main {
+  background-image: url(https://www.auvergnerhonealpes.fr/themes/custom/aura_theme/assets/images/optimized/icons/logo-watermark-blue-lightest.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+  display: flex;
+  .row {
+    --bs-gutter-x: 0rem;
+    padding: 2rem;
+    .presentation {
+      padding: 20;
+      text-align: justify;
+    }
+    .etape {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: justify;
+      // padding: 6rem 3rem 0rem 9rem;
+      .red {
+        
+        width: 3rem;
+        height: 0.6rem;
+        background-color: $rouge;
+      }
+      img {
+        
+        width: 288px;
+        height: 480px;
+      }
+    }
+
+    .pourquoi {
+        display: flex;
+        flex-direction: row;
+      flex-wrap: wrap;
+      text-align: justify;
+        // padding: 6rem 3rem 5rem 9rem;
+        
+        .green {
+          width: 3rem;
+          height: 0.6rem;
+          background-color: $vert;
+        }
+        img {
+          width: 288px;
+          height: 480px;
+        }
+      }
+  }
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: larger;
+}
+
+.separation{
+  background-color: $fonce;
+  width: 280px;
+  height: 5px;
+}

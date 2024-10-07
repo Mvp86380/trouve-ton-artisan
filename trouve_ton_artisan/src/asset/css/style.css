@@ -1,0 +1,86 @@
+@font-face {
+  font-family: Graphik-Regular;
+  src: url(../police/GraphikCompact-Regular-Trial.woff);
+  src: url(../police/GraphikCompact-Regular-Trial.otf) format("opentype");
+}
+@font-face {
+  font-family: Graphik-bold;
+  src: url(../police/GraphikCompact-Bold-Trial_1.woff);
+  src: url(../police/GraphikCompact-Bold-Trial_1.woff) format("opentype");
+}
+@font-face {
+  font-family: Graphik-Medium;
+  src: url(../police/GraphikCompact-Medium-Trial_1.woff);
+  src: url(../police/GraphikCompact-Medium-Trial.otf) format("opentype");
+}
+header {
+  background-color: white !important;
+}
+header nav {
+  box-shadow: 0px 5px 5px #f1f8fc;
+}
+header nav .container-fluid {
+  background-color: white !important;
+}
+header nav img {
+  width: 150px;
+  margin: 0;
+}
+header nav button {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0,116,199)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --bs-navbar-toggler-border-color: $clair;
+  color: #f1f8fc !important;
+}
+header nav .navbar-nav .nav-link {
+  color: #0074c7;
+  font-family: Graphik-Medium;
+}
+header nav .navbar-nav .nav-link:hover {
+  color: #00497c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Graphik-bold, sans-serif;
+  color: #00497c;
+}
+
+h4 {
+  color: #0074c7;
+}
+
+h2,
+h3,
+h4 {
+  font-family: Graphik-Medium, sans-serif;
+}
+
+p,
+li {
+  font-family: Graphik-Regular, sans-serif;
+  font-size: 1.1rem;
+}
+
+.barre-recherche input[type=text] {
+  padding: 8px;
+  border: 1px solid #f1f8fc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.barre-recherche button {
+  padding: 8px 12px;
+  background-color: #0074c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.barre-recherche button:hover {
+  background-color: #00497c;
+}
+
+.img-error {
+  width: 50vh;
+  padding: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+.form-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  background-color: #f1f8fc;
+}
+
+.form-group {
+  margin-top: 10px;
+}
+
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.message-envoi {
+  background-color: rgba(129, 184, 100, 0.6588235294);
+  border: 1px solid #82b864;
+  padding: 20px;
+  border-radius: 10px;
+}/*# sourceMappingURL=formulaire.css.map */

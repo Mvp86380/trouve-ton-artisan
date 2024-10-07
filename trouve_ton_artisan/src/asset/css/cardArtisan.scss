@@ -1,0 +1,29 @@
+$clair: #f1f8fc;
+$bleu: #0074c7;
+$fonce: #00497c;
+$paragraphe: Graphik-Regular;
+$police-titre:Graphik-bold;
+
+.card{
+    border: 1px solid $fonce;
+    margin: 10px;
+    h4{
+        font-family: $police-titre;
+    }
+   
+    p{
+        font-family: $paragraphe;
+    }
+}
+
+button{
+    background-color: $bleu;
+    color: #f1f8fc;
+    font-family: $paragraphe;
+    border:none;
+    border-radius: 10rem;
+    padding: 0.7rem 2rem;
+}
+button:hover{
+    background-color: $fonce;
+  }

@@ -1,0 +1,80 @@
+$bleu: #0074c7;
+
+.footer {
+  background-color: $bleu;
+  background-image: url(https://www.auvergnerhonealpes.fr/themes/custom/aura_theme/assets/images/optimized/icons/logo-watermark-white.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50rem;
+  .footer_bulle {
+    width: 100%;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 0 0 10rem 10rem;
+    color: #fff;border-top:1px solid #fff;
+  }
+  img {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 250px;
+  }
+
+  .footer_address {
+   
+    p {
+      color: #fff;
+    }
+    i{
+        color: #fff;
+         font-size: 1.5rem;
+         margin-right: 1.2rem;
+    }
+    .phone{
+      text-decoration: none;
+      color: #fff;
+    }
+    
+  }
+  .navigation {
+    .footer_button {
+      ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-evenly;
+        align-items: center;
+        li {
+          padding: 20px;
+          .lien {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.triangle {
+  position: relative;
+  top: -3.2rem;
+  left: 7rem;
+  width: 0;
+  height: 0;
+  border-top: 3rem solid transparent; /* Hauteur du triangle */
+  border-bottom: 3rem solid transparent; /* Hauteur du triangle */
+  border-left: 3rem solid #fff;
+}
+
+.separation_blanc{
+    background-color: #fff;
+    width: auto;
+    height: 1px;
+    border: 1px solid #fff;
+}
+
+.reseaux-sociaux{
+    background-color: #fff;
+
+}
+

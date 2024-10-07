@@ -1,0 +1,24 @@
+$clair: #f1f8fc;
+$vert: #82b864;
+
+.form-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  background-color: $clair;
+  
+}
+.form-group{
+    margin-top: 10px;
+}
+.btn-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.message-envoi{
+    background-color: #81b864a8;
+    border: 1px solid $vert;
+    padding: 20px;
+    border-radius: 10px;
+}

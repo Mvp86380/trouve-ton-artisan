@@ -1,0 +1,23 @@
+.card {
+  border: 1px solid #00497c;
+  margin: 10px;
+}
+.card h4 {
+  font-family: Graphik-bold;
+}
+.card p {
+  font-family: Graphik-Regular;
+}
+
+button {
+  background-color: #0074c7;
+  color: #f1f8fc;
+  font-family: Graphik-Regular;
+  border: none;
+  border-radius: 10rem;
+  padding: 0.7rem 2rem;
+}
+
+button:hover {
+  background-color: #00497c;
+}/*# sourceMappingURL=cardArtisan.css.map */
